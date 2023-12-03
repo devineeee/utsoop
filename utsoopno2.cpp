@@ -29,12 +29,12 @@ public:
 
     // Method untuk menghitung volume tabung
     double hitungVolume() const {
-        return M_PI * pow(jariJari, 2) * tinggi;
+        return  pow(jariJari, 2)* tinggi;
     }
 
     // Method untuk menghitung luas permukaan tabung
     double hitungLuasPermukaan() const {
-        return 2 * M_PI * jariJari * (jariJari + tinggi);
+        return 2 * jariJari * (jariJari + tinggi);
     }
 };
 
