@@ -2,7 +2,7 @@
 #include <string>
 
 class MobilBalap {
-private:
+public:
     std::string nama;
     std::string model;
     double kecepatan;

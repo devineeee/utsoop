@@ -6,7 +6,7 @@
 using namespace std;
 
 class Mahasiswa {
-private:
+public:
     string nama;
     string nomorInduk;
     vector<pair<string, double>> catatanAkademik; // Pasangan mata kuliah dan nilai
