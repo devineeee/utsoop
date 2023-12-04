@@ -2,7 +2,7 @@
 #include <string>
 
 class RekeningBank {
-private:
+public:
     std::string namaPemilik;
     int nomorRekening;
     double saldo;
