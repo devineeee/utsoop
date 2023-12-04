@@ -1,7 +1,7 @@
 #include <iostream>
 
 class PersegiPanjang {
-private:
+public:
     double panjang;
     double lebar;
 
