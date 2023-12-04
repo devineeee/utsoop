@@ -2,7 +2,7 @@
 #include <cmath>
 
 class Tabung {
-private:
+public:
     double jariJari;
     double tinggi;
 
